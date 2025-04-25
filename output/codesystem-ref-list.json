@@ -1,0 +1,27 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "2.1.1",
+      "status" : "retired",
+      "name" : "Icd10",
+      "title" : "ICD-10",
+      "description" : "International Classification of Diseases revision 10 (ICD 10)",
+      "oids" : ["2.16.840.1.113883.6.3"],
+      "uses" : {
+      },
+      "http://tx.fhir.org/r4/ValueSet/f20c8dea-a323-4352-a122-e1718d8e186d" : "ICD_10_EN"
+    },
+    {
+      "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+      "version" : "2025.0.1",
+      "status" : "active",
+      "name" : "MII_CS_Person_Vitalstatus",
+      "title" : "MII CS Person Vitalstatus",
+      "description" : "Vitalstatus des Patienten",
+      "uses" : {
+      },
+      "ValueSet-mii-vs-person-vitalstatus.html" : "MII VS Person Vitalstatus"
+    }
+  ]
+}

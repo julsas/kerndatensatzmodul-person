@@ -1,0 +1,22 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-mii-ig-person.json	8844	-	0	0	0	0	0	0	29	577	0	0	0	0	0	0	0	1	0	0	238	142	0	0	0	39	0	4
+fsh-generated/resources/ActorDefinition-DataIntegrationCenter.json	1266	20	0	0	1	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	65	50	0	0	0	6	0	4
+fsh-generated/resources/ActorDefinition-DataManagementSite.json	1322	16	0	0	1	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	19	20	0	0	0	3	0	0
+fsh-generated/resources/ActorDefinition-FederatedTrustedThirdParty.json	1242	13	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	15	17	0	0	0	2	0	0
+fsh-generated/resources/ActorDefinition-HealthResearchDataPortal.json	1239	14	0	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	13	16	0	0	0	0	0	0
+fsh-generated/resources/ActorDefinition-LocalTrustedThirdParty.json	1237	15	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	13	57	0	0	0	3	0	0
+fsh-generated/resources/ActorDefinition-TerminologyService.json	1179	14	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	15	56	0	0	0	1	0	0
+fsh-generated/resources/CapabilityStatement-mii-cps-person-capabilitystatement.json	23352	32	0	0	1	0	5	0	4	125	0	0	0	0	0	0	0	1	0	0	91	215	0	1	0	3	0	1
+fsh-generated/resources/CodeSystem-mii-cs-person-vitalstatus.json	1797	22	0	0	1	0	0	0	0	48	0	0	3	0	0	0	0	0	0	0	25	2663	0	0	0	1	0	0
+fsh-generated/resources/Condition-mii-exa-person-condition-todesursache.json	872	34	0	0	0	0	0	0	0	91	0	0	0	0	0	0	0	0	0	0	12	71	0	0	0	0	0	0
+fsh-generated/resources/Observation-mii-exa-person-observation-vitalstatus.json	1055	15	0	0	5	0	0	0	0	39	0	0	0	0	0	0	0	0	0	0	17	30	0	0	0	0	0	0
+fsh-generated/resources/Patient-mii-exa-person-patient-full.json	3131	19	0	0	0	0	0	0	0	733	0	0	0	0	0	0	0	0	0	0	24	52	0	0	0	0	0	0
+fsh-generated/resources/Patient-mii-exa-person-patient-minimal.json	2170	15	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	18	24	0	0	0	0	0	0
+fsh-generated/resources/Patient-mii-exa-person-patient-pseudonymisiert.json	913	14	0	0	0	0	0	0	0	69	0	0	0	0	0	0	0	0	0	0	12	13	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-mii-lm-person.json	74277	42	0	221	1	0	0	2	0	214	0	0	0	0	0	0	0	4	0	0	592	1935	0	1	0	76	1	6
+fsh-generated/resources/StructureDefinition-mii-pr-person-patient-pseudonymisiert.json	42579	40	0	389	0	0	0	0	1	396	0	0	1	0	0	0	0	2	0	0	539	3117	0	0	0	27	0	5
+fsh-generated/resources/StructureDefinition-mii-pr-person-patient.json	97166	67	0	619	1	0	0	0	0	325	0	0	0	0	0	0	0	2	0	0	1209	6037	0	0	0	57	1	15
+fsh-generated/resources/StructureDefinition-mii-pr-person-proband.json	3655	8	0	144	1	0	0	0	0	53	0	0	0	0	0	0	0	1	0	0	258	1136	0	0	0	23	0	1
+fsh-generated/resources/StructureDefinition-mii-pr-person-todesursache.json	39904	12	0	157	0	0	0	0	0	88	0	0	0	0	0	0	0	0	0	0	438	2051	0	0	0	11	0	4
+fsh-generated/resources/StructureDefinition-mii-pr-person-vitalstatus.json	40184	14	0	156	0	0	0	0	0	111	0	0	0	0	0	0	0	1	0	0	506	1910	0	0	0	11	0	5
+fsh-generated/resources/ValueSet-mii-vs-person-vitalstatus.json	1341	6	0	0	1	0	0	0	0	121	0	0	0	0	0	0	0	0	0	0	24	274	0	0	0	3	0	0

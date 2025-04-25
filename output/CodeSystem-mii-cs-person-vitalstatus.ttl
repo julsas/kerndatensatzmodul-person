@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/mii-cs-person-vitalstatus> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mii-cs-person-vitalstatus"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-person-vitalstatus</b></p><a name=\"mii-cs-person-vitalstatus\"> </a><a name=\"hcmii-cs-person-vitalstatus\"> </a><a name=\"mii-cs-person-vitalstatus-en-US\"> </a><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"mii-cs-person-vitalstatus-L\"> </a></td><td>Patient lebt</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"mii-cs-person-vitalstatus-T\"> </a></td><td>Patient verstorben</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"mii-cs-person-vitalstatus-A\"> </a></td><td>unbekannt, Patient nicht mehr auffindbar (lost to follow-up)</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"mii-cs-person-vitalstatus-N\"> </a></td><td>unbekannt, Betreuung/Nachsorge nicht mehr nötig</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"mii-cs-person-vitalstatus-B\"> </a></td><td>unbekannt, Patient ist anderenorts in Betreuung</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"mii-cs-person-vitalstatus-V\"> </a></td><td>unbekannt, Patient verweigert weitere Betreuung</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"mii-cs-person-vitalstatus-X\"> </a></td><td>unbekannt</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/spdx-license"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "CC-BY-4.0" ] ;
+         fhir:display [ fhir:v "Creative Commons Attribution 4.0 International" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2025.0.1"] ; # 
+  fhir:name [ fhir:v "MII_CS_Person_Vitalstatus"] ; # 
+  fhir:title [ fhir:v "MII CS Person Vitalstatus"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-12-04"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.medizininformatik-initiative.de/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Vitalstatus des Patienten"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus"^^xsd:anyURI ;
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "L" ] ;
+     fhir:display [ fhir:v "Patient lebt" ]
+  ] [
+     fhir:code [ fhir:v "T" ] ;
+     fhir:display [ fhir:v "Patient verstorben" ]
+  ] [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "unbekannt, Patient nicht mehr auffindbar (lost to follow-up)" ]
+  ] [
+     fhir:code [ fhir:v "N" ] ;
+     fhir:display [ fhir:v "unbekannt, Betreuung/Nachsorge nicht mehr nötig" ]
+  ] [
+     fhir:code [ fhir:v "B" ] ;
+     fhir:display [ fhir:v "unbekannt, Patient ist anderenorts in Betreuung" ]
+  ] [
+     fhir:code [ fhir:v "V" ] ;
+     fhir:display [ fhir:v "unbekannt, Patient verweigert weitere Betreuung" ]
+  ] [
+     fhir:code [ fhir:v "X" ] ;
+     fhir:display [ fhir:v "unbekannt" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

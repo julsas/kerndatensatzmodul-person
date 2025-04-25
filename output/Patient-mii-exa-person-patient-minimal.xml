@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-person-patient-minimal"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient|2025.0.1"/>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient mii-exa-person-patient-minimal</b></p><a name="mii-exa-person-patient-minimal"> </a><a name="hcmii-exa-person-patient-minimal"> </a><a name="mii-exa-person-patient-minimal-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-person-patient.html">MII PR Person Patientversion: null2025.0.1)</a></p><p style="margin-bottom: 0px">Security Label: test health data (Details: ActReason code HTEST = 'test health data')</p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Maja Julia Van-der-Dussen (official) Other, DoB: 1998-09-19 ( Medical record number (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">Krankenversichertennummer/A999999999 (use: official, )</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">Teststraße 2 Köln 50823 DE </td></tr><tr><td style="background-color: #f3f5da" title="Patient Links">Links:</td><td colspan="3"><ul><li>Managing Organization: <a href="https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.3&amp;canonical=http://fhir.org/packages/de.basisprofil.r4/Organization/Charite-Universitaetsmedizin-Berlin">Organization/Charite-Universitaetsmedizin-Berlin</a></li></ul></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MR"/>
+      </coding>
+    </type>
+    <system value="https://www.charite.de/fhir/sid/patienten"/>
+    <value value="42285243"/>
+    <assigner>
+      <identifier>
+        <system value="http://fhir.de/sid/arge-ik/iknr"/>
+        <value value="261101015"/>
+      </identifier>
+      <display value="Charité – Universitätsmedizin Berlin"/>
+    </assigner>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+        <code value="KVZ10"/>
+      </coding>
+    </type>
+    <system value="http://fhir.de/sid/gkv/kvid-10"/>
+    <value value="A999999999"/>
+    <assigner>
+      <identifier>
+        <use value="official"/>
+        <system value="http://fhir.de/sid/arge-ik/iknr"/>
+        <value value="260326822"/>
+      </identifier>
+    </assigner>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Van-der-Dussen"/>
+    <given value="Maja"/>
+    <given value="Julia"/>
+  </name>
+  <gender value="other">
+    <extension url="http://fhir.de/StructureDefinition/gender-amtlich-de">
+      <valueCoding>
+        <system value="http://fhir.de/CodeSystem/gender-amtlich-de"/>
+        <code value="D"/>
+        <display value="divers"/>
+      </valueCoding>
+    </extension>
+  </gender>
+  <birthDate value="1998-09-19"/>
+  <address>
+    <type value="both"/>
+    <line value="Teststraße 2"/>
+    <city value="Köln"/>
+    <postalCode value="50823"/>
+    <country value="DE"/>
+  </address>
+  <managingOrganization>
+    <reference value="Organization/Charite-Universitaetsmedizin-Berlin"/>
+  </managingOrganization>
+</Patient>

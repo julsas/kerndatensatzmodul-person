@@ -1,0 +1,37 @@
+{
+  "resourceType": "ActorDefinition",
+  "id": "HealthResearchDataPortal",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal",
+  "version": "2025.0.1",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CC-BY-4.0",
+            "system": "http://hl7.org/fhir/spdx-license",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "HealthResearchDataPortal",
+  "title": "Health Research Data Portal (FDPG)",
+  "status": "active",
+  "date": "2025-04-22",
+  "description": "In the context of the Medical Informatics Initiative (MII), the Health Research Data Portal (FDPG) \n    is the central access point for researchers to find and access health-related data from participating university hospitals.",
+  "type": "system"
+}

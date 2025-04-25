@@ -1,3 +1,3 @@
-# MII IG Modul Person
+# MII IG Module Person
 
-Feel free to modify this index page with your own awesome content!
+This is a draft build of the Medical Informatics Initiative (MII) Core Data Set (CDS) module Person that showcases the use of Obligations.

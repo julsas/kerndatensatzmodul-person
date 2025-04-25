@@ -1,0 +1,30 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-10/vs",
+      "version" : null,
+      "status" : "active",
+      "name" : "ICD_10_EN",
+      "title" : null,
+      "description" : null,
+      "systems" : ["http://hl7.org/fhir/sid/icd-10"],
+      "uses" : {
+      },
+      "StructureDefinition-mii-pr-person-todesursache.html" : "MII PR Person Todesursache"
+    },
+    {
+      "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus",
+      "version" : "2025.0.1",
+      "status" : "active",
+      "name" : "MII_VS_Person_Vitalstatus",
+      "title" : "MII VS Person Vitalstatus",
+      "description" : "Enthält alle Werte, die den Vitalstatus einer Person beschreiben.",
+      "systems" : [
+        "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-mii-pr-person-vitalstatus.html" : "MII PR Person Vitalstatus"
+    }
+  ]
+}

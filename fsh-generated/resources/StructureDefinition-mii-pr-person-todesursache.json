@@ -30,7 +30,21 @@
           },
           {
             "url": "content",
-            "valueString": "Todesursache"
+            "valueString": "Todesursache",
+            "_valueString": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -43,7 +57,24 @@
           },
           {
             "url": "content",
-            "valueString": "Cause of Death"
+            "valueString": "Cause of Death",
+            "_valueString": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                  "extension": [
+                    {
+                      "url": "code",
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "url": "actor",
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
@@ -74,7 +105,21 @@
           },
           {
             "url": "content",
-            "valueString": "Todesursache der verstorbenen Patientin oder des verstorbenen Patienten."
+            "valueString": "Todesursache der verstorbenen Patientin oder des verstorbenen Patienten.",
+            "_valueString": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -87,7 +132,24 @@
           },
           {
             "url": "content",
-            "valueString": "Cause of death of the deceased patient."
+            "valueString": "Cause of death of the deceased patient.",
+            "_valueString": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                  "extension": [
+                    {
+                      "url": "code",
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "url": "actor",
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
@@ -131,7 +193,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Klinischer Status"
+                  "valueString": "Klinischer Status",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -144,7 +220,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Clinical status"
+                  "valueString": "Clinical status",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -162,7 +255,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "aktiv | Rezidiv | Rückfall | inaktiv | Remission | abgeklungen"
+                  "valueString": "aktiv | Rezidiv | Rückfall | inaktiv | Remission | abgeklungen",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -175,7 +282,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "active | recurrence | relapse | inactive | remission | resolved"
+                  "valueString": "active | recurrence | relapse | inactive | remission | resolved",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -198,7 +322,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Verifizierungsstatus"
+                  "valueString": "Verifizierungsstatus",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -211,7 +349,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Verification status"
+                  "valueString": "Verification status",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -229,7 +384,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "unbestätigt | vorläufig | differential | bestätigt | widerlegt | fehlerhafte Eingabe"
+                  "valueString": "unbestätigt | vorläufig | differential | bestätigt | widerlegt | fehlerhafte Eingabe",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -242,7 +411,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "unconfirmed | provisional | differential | confirmed | refuted | entered-in-error"
+                  "valueString": "unconfirmed | provisional | differential | confirmed | refuted | entered-in-error",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -274,7 +460,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Kategorie"
+                  "valueString": "Kategorie",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -287,7 +487,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Category"
+                  "valueString": "Category",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -305,7 +522,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Eine Kategorie, die der Diagnose zugeordnet ist."
+                  "valueString": "Eine Kategorie, die der Diagnose zugeordnet ist.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -318,7 +549,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "A category assigned to the condition."
+                  "valueString": "A category assigned to the condition.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -401,7 +649,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Code"
+                  "valueString": "Code",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -414,7 +676,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Code"
+                  "valueString": "Code",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -432,7 +711,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Ein ICD-10-WHO Code, der die Todesursache identifiziert."
+                  "valueString": "Ein ICD-10-WHO Code, der die Todesursache identifiziert.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -445,7 +738,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "An ICD-10-WHO code identifying the cause of death."
+                  "valueString": "An ICD-10-WHO code identifying the cause of death.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -529,7 +839,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Fall oder Kontakt"
+                  "valueString": "Fall oder Kontakt",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -542,7 +866,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Encounter"
+                  "valueString": "Encounter",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -560,7 +901,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Fall oder Kontakt, bei dem die Todesursache festgestellt wurde."
+                  "valueString": "Fall oder Kontakt, bei dem die Todesursache festgestellt wurde.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -573,7 +928,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Encounter during which the cause of death was determined."
+                  "valueString": "Encounter during which the cause of death was determined.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -596,7 +968,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Aufzeichnungsdatum"
+                  "valueString": "Aufzeichnungsdatum",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -609,7 +995,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Recorded date"
+                  "valueString": "Recorded date",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -627,7 +1030,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Datum, an dem die Todesursache erstmals dokumentiert wurde."
+                  "valueString": "Datum, an dem die Todesursache erstmals dokumentiert wurde.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -640,7 +1057,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Date when the cause of death was first recorded."
+                  "valueString": "Date when the cause of death was first recorded.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -663,7 +1097,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Hinweis"
+                  "valueString": "Hinweis",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -676,7 +1124,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Note"
+                  "valueString": "Note",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -694,7 +1159,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zusätzliche Informationen zur Todesursache als Freitext."
+                  "valueString": "Zusätzliche Informationen zur Todesursache als Freitext.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -707,7 +1186,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Additional information about the cause of death as free text."
+                  "valueString": "Additional information about the cause of death as free text.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }

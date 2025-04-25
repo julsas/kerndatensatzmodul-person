@@ -14,5 +14,6 @@ _gencontinuous.sh
 _gencontinuous.bat
 template
 temp
-output
 input-cache
+_build.bat
+_build.sh

@@ -30,7 +30,21 @@
           },
           {
             "url": "content",
-            "valueString": "Vitalstatus"
+            "valueString": "Vitalstatus",
+            "_valueString": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -43,7 +57,24 @@
           },
           {
             "url": "content",
-            "valueString": "Vital status"
+            "valueString": "Vital status",
+            "_valueString": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                  "extension": [
+                    {
+                      "url": "code",
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "url": "actor",
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
@@ -74,7 +105,21 @@
           },
           {
             "url": "content",
-            "valueString": "Vitalstatus einer Patientin oder eines Patienten."
+            "valueString": "Vitalstatus einer Patientin oder eines Patienten.",
+            "_valueString": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -87,7 +132,24 @@
           },
           {
             "url": "content",
-            "valueString": "Vital status of a patient."
+            "valueString": "Vital status of a patient.",
+            "_valueString": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                  "extension": [
+                    {
+                      "url": "code",
+                      "valueCode": "SHALL:display"
+                    },
+                    {
+                      "url": "actor",
+                      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
@@ -131,7 +193,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Status"
+                  "valueString": "Status",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -144,7 +220,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Status"
+                  "valueString": "Status",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -162,7 +255,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "abgeschlossen"
+                  "valueString": "abgeschlossen",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -175,7 +282,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "completed"
+                  "valueString": "completed",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -208,7 +332,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Kategorie"
+                  "valueString": "Kategorie",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -221,7 +359,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Category"
+                  "valueString": "Category",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -239,7 +394,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Klassifikation des Typs der Beobachtung für den Vitalstatus."
+                  "valueString": "Klassifikation des Typs der Beobachtung für den Vitalstatus.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -252,7 +421,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Classification of type of observation for vital status."
+                  "valueString": "Classification of type of observation for vital status.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -292,7 +478,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Code"
+                  "valueString": "Code",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -305,7 +505,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Code"
+                  "valueString": "Code",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -323,7 +540,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Ein LOINC Code, der die Vitalstatus Beobachtung identifiziert."
+                  "valueString": "Ein LOINC Code, der die Vitalstatus Beobachtung identifiziert.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -336,7 +567,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "A LOINC code identifying the vital status observation."
+                  "valueString": "A LOINC code identifying the vital status observation.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -415,7 +663,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Fall oder Kontakt"
+                  "valueString": "Fall oder Kontakt",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -428,7 +690,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Encounter"
+                  "valueString": "Encounter",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -446,7 +725,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Fall oder Kontakt, bei dem der Vitalstatus festgestellt wurde."
+                  "valueString": "Fall oder Kontakt, bei dem der Vitalstatus festgestellt wurde.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -459,7 +752,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Encounter during which the vital status was determined."
+                  "valueString": "Encounter during which the vital status was determined.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -482,7 +792,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zeitpunkt"
+                  "valueString": "Zeitpunkt",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -495,7 +819,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Point in time"
+                  "valueString": "Point in time",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -513,7 +854,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Der Zeitpunkt, zu dem der beobachtete Vitalstatus als wahr festgestellt wird."
+                  "valueString": "Der Zeitpunkt, zu dem der beobachtete Vitalstatus als wahr festgestellt wird.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -526,7 +881,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The time the observed vital status is asserted as being true."
+                  "valueString": "The time the observed vital status is asserted as being true.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -555,7 +927,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Wert"
+                  "valueString": "Wert",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -568,7 +954,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Value"
+                  "valueString": "Value",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -586,7 +989,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "lebendig | verstorben | unbekannt"
+                  "valueString": "lebendig | verstorben | unbekannt",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -599,7 +1016,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "alive | deceased | unknown"
+                  "valueString": "alive | deceased | unknown",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -669,7 +1103,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Hinweis"
+                  "valueString": "Hinweis",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -682,7 +1130,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Note"
+                  "valueString": "Note",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -700,7 +1165,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zusätzliche Informationen zum Vitalstatus als Freitext."
+                  "valueString": "Zusätzliche Informationen zum Vitalstatus als Freitext.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -713,7 +1192,24 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Additional information about the vital status as free text."
+                  "valueString": "Additional information about the vital status as free text.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/obligation",
+                        "extension": [
+                          {
+                            "url": "code",
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "url": "actor",
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }

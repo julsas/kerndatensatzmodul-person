@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="443e1004-cece-4a4c-b5e9-3932f5bd5110"/>
+  <meta>
+    <lastUpdated value="2025-04-25T09:45:56.437+02:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-mii-cs-person-vitalstatus.html">codesystem MII CS Person Vitalstatus v2025.0.1 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-L"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-L">L</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>Patient lebt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-T"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-T">T</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>Patient verstorben</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-A"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-A">A</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>unbekannt, Patient nicht mehr auffindbar (lost to follow-up)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-N"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-N">N</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>unbekannt, Betreuung/Nachsorge nicht mehr nötig</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-B"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-B">B</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>unbekannt, Patient ist anderenorts in Betreuung</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-V"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-V">V</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>unbekannt, Patient verweigert weitere Betreuung</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus-X"> </a>  
+                  <a href="CodeSystem-mii-cs-person-vitalstatus.html#mii-cs-person-vitalstatus-X">X</a>
+                </td>
+                <td>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</td>
+                <td>unbekannt</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus"/>
+        <version value="2025.0.1"/>
+        <name value="MII_VS_Person_Vitalstatus"/>
+        <title value="MII VS Person Vitalstatus"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-12-04"/>
+        <expansion>
+          <identifier value="urn:uuid:b4d5f839-a83a-4774-b337-bf2b8f113f95"/>
+          <timestamp value="2025-04-25T09:46:56+02:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus|2025.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="L"/>
+            <display value="Patient lebt"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="T"/>
+            <display value="Patient verstorben"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="A"/>
+            <display value="unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="N"/>
+            <display value="unbekannt, Betreuung/Nachsorge nicht mehr nötig"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="B"/>
+            <display value="unbekannt, Patient ist anderenorts in Betreuung"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="V"/>
+            <display value="unbekannt, Patient verweigert weitere Betreuung"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+            <code value="X"/>
+            <display value="unbekannt"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

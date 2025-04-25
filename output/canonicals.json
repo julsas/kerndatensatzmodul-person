@@ -1,0 +1,114 @@
+[
+  {
+    "id" : "DataIntegrationCenter",
+    "type" : "ActorDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter",
+    "version" : "2025.0.1",
+    "name" : "DataIntegrationCenter"
+  },
+  {
+    "id" : "DataManagementSite",
+    "type" : "ActorDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite",
+    "version" : "2025.0.1",
+    "name" : "DataManagementSite"
+  },
+  {
+    "id" : "FederatedTrustedThirdParty",
+    "type" : "ActorDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/FederatedTrustedThirdParty",
+    "version" : "2025.0.1",
+    "name" : "FederatedTrustedThirdParty"
+  },
+  {
+    "id" : "HealthResearchDataPortal",
+    "type" : "ActorDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal",
+    "version" : "2025.0.1",
+    "name" : "HealthResearchDataPortal"
+  },
+  {
+    "id" : "LocalTrustedThirdParty",
+    "type" : "ActorDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/LocalTrustedThirdParty",
+    "version" : "2025.0.1",
+    "name" : "LocalTrustedThirdParty"
+  },
+  {
+    "id" : "TerminologyService",
+    "type" : "ActorDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/TerminologyService",
+    "version" : "2025.0.1",
+    "name" : "TerminologyService"
+  },
+  {
+    "id" : "mii-cps-person-capabilitystatement",
+    "type" : "CapabilityStatement",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CapabilityStatement/metadata",
+    "version" : "2025.0.1",
+    "name" : "MII_CPS_Person_CapabilityStatement"
+  },
+  {
+    "id" : "mii-cs-person-vitalstatus",
+    "type" : "CodeSystem",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus",
+    "version" : "2025.0.1",
+    "name" : "MII_CS_Person_Vitalstatus"
+  },
+  {
+    "id" : "mii-ig-person",
+    "type" : "ImplementationGuide",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ImplementationGuide/mii-ig-person",
+    "version" : "2025.0.1",
+    "name" : "MII_IG_Person"
+  },
+  {
+    "id" : "mii-lm-person",
+    "type" : "StructureDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/LogicalModel/Person",
+    "version" : "2025.0.1",
+    "name" : "MII_LM_Person"
+  },
+  {
+    "id" : "mii-pr-person-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient",
+    "version" : "2025.0.1",
+    "name" : "MII_PR_Person_Patient"
+  },
+  {
+    "id" : "mii-pr-person-patient-pseudonymisiert",
+    "type" : "StructureDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert",
+    "version" : "2025.0.1",
+    "name" : "MII_PR_Person_PatientPseudonymisiert"
+  },
+  {
+    "id" : "mii-pr-person-proband",
+    "type" : "StructureDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/ResearchSubject",
+    "version" : "2025.0.1",
+    "name" : "MII_PR_Person_Proband"
+  },
+  {
+    "id" : "mii-pr-person-todesursache",
+    "type" : "StructureDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Todesursache",
+    "version" : "2025.0.1",
+    "name" : "MII_PR_Person_Todesursache"
+  },
+  {
+    "id" : "mii-pr-person-vitalstatus",
+    "type" : "StructureDefinition",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Vitalstatus",
+    "version" : "2025.0.1",
+    "name" : "MII_PR_Person_Vitalstatus"
+  },
+  {
+    "id" : "mii-vs-person-vitalstatus",
+    "type" : "ValueSet",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus",
+    "version" : "2025.0.1",
+    "name" : "MII_VS_Person_Vitalstatus"
+  }
+]

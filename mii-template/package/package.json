@@ -1,0 +1,13 @@
+{
+  "name": "mii.template",
+  "version": "0.0.1",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "MII Template",
+  "author": "https://www.medizininformatik-initiative.de",
+  "canonical": "https://www.medizininformatik-initiative.de/fhir/ig-template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}

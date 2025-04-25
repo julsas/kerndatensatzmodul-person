@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus,2025.0.1,active,,MII_VS_Person_Vitalstatus,MII VS Person Vitalstatus,"Enthält alle Werte, die den Vitalstatus einer Person beschreiben.",,"Internal"

@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/core/modul-person/Condition/mii-exa-person-condition-todesursache> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mii-exa-person-condition-todesursache"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Todesursache|2025.0.1"^^xsd:anyURI ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Todesursache|2025.0.1>
+     ] ) ;
+     fhir:security ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HTEST" ] ;
+       fhir:display [ fhir:v "test health data" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition mii-exa-person-condition-todesursache</b></p><a name=\"mii-exa-person-condition-todesursache\"> </a><a name=\"hcmii-exa-person-condition-todesursache\"> </a><a name=\"mii-exa-person-condition-todesursache-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-person-todesursache.html\">MII PR Person Todesursacheversion: null2025.0.1)</a></p><p style=\"margin-bottom: 0px\">Security Label: test health data (Details: ActReason code HTEST = 'test health data')</p></div><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 16100001}, {http://loinc.org 79378-6}\">Death diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/icd-10 R96.1}\">Death occurring less than 24 hours from onset of symptoms, not otherwise explained</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.3&amp;canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/example\">Patient/example</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a sct:16100001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "16100001" ]
+     ] [
+       a loinc:79378-6 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "79378-6" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icd-10"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "2019" ] ;
+       fhir:code [ fhir:v "R96.1" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/core/modul-person/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-person-vitalstatus",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-person-vitalstatus</b></p><a name=\"mii-vs-person-vitalstatus\"> </a><a name=\"hcmii-vs-person-vitalstatus\"> </a><a name=\"mii-vs-person-vitalstatus-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-mii-cs-person-vitalstatus.html\"><code>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</code></a></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/spdx-license",
+        "code" : "CC-BY-4.0",
+        "display" : "Creative Commons Attribution 4.0 International"
+      }]
+    }
+  }],
+  "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus",
+  "version" : "2025.0.1",
+  "name" : "MII_VS_Person_Vitalstatus",
+  "title" : "MII VS Person Vitalstatus",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-12-04",
+  "publisher" : "Medizininformatik Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de/"
+    }]
+  }],
+  "description" : "Enthält alle Werte, die den Vitalstatus einer Person beschreiben.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"
+    }]
+  }
+}

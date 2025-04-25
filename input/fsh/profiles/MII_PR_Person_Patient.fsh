@@ -14,10 +14,29 @@ Description: "Dieses Profil beschreibt eine Patient*in in der Medizininformatik-
 * ^date = "2024-12-04"
 * obeys mii-pat-1
 * id MS
+* id ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate
+* id ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* id ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* id ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * meta MS
 //* meta.source MS
 * meta.profile MS
+* meta.profile ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHOULD:populate
+* meta.profile ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* meta.profile ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[documentation].valueMarkdown = "The element SHOULD be populated, as the DIZ Dashboard's search queries use the _profile search parameter to count the available resource instances."
+* meta.profile ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:handle
+* meta.profile ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
 * identifier MS
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:process
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/LocalTrustedThirdParty"
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[process].valueCanonical = https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymize
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:process
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/FederatedTrustedThirdParty"
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[process].valueCanonical = https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymize
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* identifier ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * identifier ^short = "Patienten-Identifikator"
 * insert Translation(identifier ^short, de-DE, Identifikator)
 * insert Translation(identifier ^short, en-US, Identifier)
@@ -140,6 +159,12 @@ Description: "Dieses Profil beschreibt eine Patient*in in der Medizininformatik-
 * insert Translation(name[geburtsname] ^definition, de-DE, Name\, der vor einer Namensänderung aufgrund von Heirat verwendet wurde.)
 * insert Translation(name[geburtsname] ^definition, en-US, A name used prior to changing name because of marriage.)
 * gender MS
+* gender ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate
+* gender ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* gender ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:handle
+* gender ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+* gender ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* gender ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * gender ^short = "Administratives Geschlecht"
 * gender ^definition = "männlich | weiblich | andere | unbekannt | unbestimmt | divers"
 * insert Translation(gender ^short, de-DE, Administratives Geschlecht)
@@ -154,6 +179,12 @@ Description: "Dieses Profil beschreibt eine Patient*in in der Medizininformatik-
 * insert Translation(gender.extension[other-amtlich] ^definition, de-DE, Extension zur genaueren Differenzierung des administrativen Geschlechts)
 * insert Translation(gender.extension[other-amtlich] ^definition, en-US, Extension for detailed differentiation of administrative gender)
 * birthDate MS
+* birthDate ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate
+* birthDate ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* birthDate ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:handle
+* birthDate ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+* birthDate ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* birthDate ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * birthDate ^short = "Geburtsdatum"
 * birthDate ^definition = "Das Geburtsdatum der Patientin oder des Patienten"
 * insert Translation(birthDate ^short, de-DE, Geburtsdatum)
@@ -162,6 +193,12 @@ Description: "Dieses Profil beschreibt eine Patient*in in der Medizininformatik-
 * insert Translation(birthDate ^definition, en-US, The date of birth for the individual)
 * birthDate.extension contains $data-absent-reason named data-absent-reason 0..1 MS
 * deceased[x] MS
+* deceased[x] ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate-if-known
+* deceased[x] ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* deceased[x] ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:handle
+* deceased[x] ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+* deceased[x] ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* deceased[x] ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * deceased[x] ^short = "Verstorben"
 * deceased[x] ^definition = "Gibt an, ob die Person verstorben ist oder nicht"
 * insert Translation(deceased[x] ^short, de-DE, Verstorben)
@@ -193,7 +230,19 @@ Description: "Dieses Profil beschreibt eine Patient*in in der Medizininformatik-
 * address[Strassenanschrift].city 1.. MS
 * address[Strassenanschrift].city.extension contains ExtensionDestatisAgs named gemeindeschluessel 0..1 MS
 * address[Strassenanschrift].postalCode 1.. MS
+* address[Strassenanschrift].postalCode ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate-if-known
+* address[Strassenanschrift].postalCode ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* address[Strassenanschrift].postalCode ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:handle
+* address[Strassenanschrift].postalCode ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+* address[Strassenanschrift].postalCode ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* address[Strassenanschrift].postalCode ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * address[Strassenanschrift].country 1.. MS
+* address[Strassenanschrift].country ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:populate-if-known
+* address[Strassenanschrift].country ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"
+* address[Strassenanschrift].country ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:handle
+* address[Strassenanschrift].country ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+* address[Strassenanschrift].country ^extension[http://hl7.org/fhir/StructureDefinition/obligation][+].extension[code].valueCode = #SHALL:persist
+* address[Strassenanschrift].country ^extension[http://hl7.org/fhir/StructureDefinition/obligation][=].extension[actor].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataManagementSite"
 * address[Strassenanschrift] obeys pat-cnt-2or3-char
 * address[Strassenanschrift] ^short = "Straßenanschrift"
 * address[Strassenanschrift] ^definition = "Eine Straßenanschrift der Patientin oder des Patienten"

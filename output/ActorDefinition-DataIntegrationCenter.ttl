@@ -1,0 +1,101 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/core/modul-person/Basic/DataIntegrationCenter> a fhir:Basic ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "DataIntegrationCenter"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActorDefinition DataIntegrationCenter</b></p><a name=\"DataIntegrationCenter\"> </a><a name=\"hcDataIntegrationCenter\"> </a><a name=\"DataIntegrationCenter-en-US\"> </a><table class=\"grid\"><tr><td><b>Actor: DataIntegrationCenter </b></td><td>Data Integration Center (DIC)</td><td>Type: system </td></tr><tr><td colspan=\"3\"/></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/spdx-license"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "CC-BY-4.0" ] ;
+         fhir:display [ fhir:v "Creative Commons Attribution 4.0 International" ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:uri ;
+       fhir:v "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/DataIntegrationCenter"^^xsd:anyURI
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "2025.0.1"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "DataIntegrationCenter"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Data Integration Center (DIC)"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "active"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:dateTime ;
+       fhir:v "2025-04-22"^^xsd:date
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Medizininformatik Initiative"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
+       fhir:telecom ( [
+         fhir:system [ fhir:v "url" ] ;
+         fhir:value [ fhir:v "https://www.medizininformatik-initiative.de/" ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:markdown ;
+       fhir:v "In the context of the Medical Informatics Initiative (MII), a Data Integration Center (DIC) \n    is an institutional unit established at participating university hospitals to support the integration and harmonization \n    of health-related data for research purposes."
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "system"
+     ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "ActorDefinition" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mii-cs-person-vitalstatus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-person-vitalstatus</b></p><a name="mii-cs-person-vitalstatus"> </a><a name="hcmii-cs-person-vitalstatus"> </a><a name="mii-cs-person-vitalstatus-en-US"> </a><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">L<a name="mii-cs-person-vitalstatus-L"> </a></td><td>Patient lebt</td></tr><tr><td style="white-space:nowrap">T<a name="mii-cs-person-vitalstatus-T"> </a></td><td>Patient verstorben</td></tr><tr><td style="white-space:nowrap">A<a name="mii-cs-person-vitalstatus-A"> </a></td><td>unbekannt, Patient nicht mehr auffindbar (lost to follow-up)</td></tr><tr><td style="white-space:nowrap">N<a name="mii-cs-person-vitalstatus-N"> </a></td><td>unbekannt, Betreuung/Nachsorge nicht mehr nötig</td></tr><tr><td style="white-space:nowrap">B<a name="mii-cs-person-vitalstatus-B"> </a></td><td>unbekannt, Patient ist anderenorts in Betreuung</td></tr><tr><td style="white-space:nowrap">V<a name="mii-cs-person-vitalstatus-V"> </a></td><td>unbekannt, Patient verweigert weitere Betreuung</td></tr><tr><td style="white-space:nowrap">X<a name="mii-cs-person-vitalstatus-X"> </a></td><td>unbekannt</td></tr></table></div>
+  </text>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/spdx-license"/>
+        <code value="CC-BY-4.0"/>
+        <display value="Creative Commons Attribution 4.0 International"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/CodeSystem/Vitalstatus"/>
+  <version value="2025.0.1"/>
+  <name value="MII_CS_Person_Vitalstatus"/>
+  <title value="MII CS Person Vitalstatus"/>
+  <status value="active"/>
+  <date value="2024-12-04"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Vitalstatus des Patienten"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-person/ValueSet/Vitalstatus"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="L"/>
+    <display value="Patient lebt"/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="Patient verstorben"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="unbekannt, Patient nicht mehr auffindbar (lost to follow-up)"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="unbekannt, Betreuung/Nachsorge nicht mehr nötig"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="unbekannt, Patient ist anderenorts in Betreuung"/>
+  </concept>
+  <concept>
+    <code value="V"/>
+    <display value="unbekannt, Patient verweigert weitere Betreuung"/>
+  </concept>
+  <concept>
+    <code value="X"/>
+    <display value="unbekannt"/>
+  </concept>
+</CodeSystem>

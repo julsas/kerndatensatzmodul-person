@@ -56,7 +56,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "-- Heading --"
+                  "valueString": "-- Heading --",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -79,7 +93,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Full name of a person"
+                  "valueString": "Full name of a person",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -109,7 +137,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Full given name of a person"
+                  "valueString": "Full given name of a person",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -139,7 +181,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Last name of a person without prefixes and suffixes. Serves e.g. the alphabetical classification of the name."
+                  "valueString": "Last name of a person without prefixes and suffixes. Serves e.g. the alphabetical classification of the name.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -169,7 +225,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The full family name, including all prefix and suffix words, separated by spaces."
+                  "valueString": "The full family name, including all prefix and suffix words, separated by spaces.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -199,7 +269,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Prefix word such as: \"von\", \"van\", \"zu\", cf. also VSDM specification of Gematik (Versichertenstammdatenmanagement, \"eGK\")"
+                  "valueString": "Prefix word such as: \"von\", \"van\", \"zu\", cf. also VSDM specification of Gematik (Versichertenstammdatenmanagement, \"eGK\")",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -229,7 +313,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Name suffix as part of the last name, as defined in VSDM (Versichertenstammdatenmanagement, \"eGK\"). Examples: Countess, Prince, or Prince"
+                  "valueString": "Name suffix as part of the last name, as defined in VSDM (Versichertenstammdatenmanagement, \"eGK\"). Examples: Countess, Prince, or Prince",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -259,7 +357,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Parts of the name before the first name, e.g. academic degree"
+                  "valueString": "Parts of the name before the first name, e.g. academic degree",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -289,7 +401,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Type of prefix, e.g. \"AC\" for Academic Titel"
+                  "valueString": "Type of prefix, e.g. \"AC\" for Academic Titel",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -319,7 +445,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Family name of a person at the time of his or her birth. Can change afterwards, e.g. by marriage and adoption of another family name."
+                  "valueString": "Family name of a person at the time of his or her birth. Can change afterwards, e.g. by marriage and adoption of another family name.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -349,7 +489,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The basic demography module contains demographic parameters (age, gender, etc.)."
+                  "valueString": "The basic demography module contains demographic parameters (age, gender, etc.).",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -379,7 +533,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Administrative sex of the person"
+                  "valueString": "Administrative sex of the person",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -409,7 +577,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Date of birth of the patient"
+                  "valueString": "Date of birth of the patient",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -439,7 +621,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Full address of a person for postal communication."
+                  "valueString": "Full address of a person for postal communication.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -469,7 +665,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Postal code according to the conventions valid in the respective country. For persons from city states including the city district"
+                  "valueString": "Postal code according to the conventions valid in the respective country. For persons from city states including the city district",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -499,7 +709,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Country code according to ISO 3166"
+                  "valueString": "Country code according to ISO 3166",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -529,7 +753,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Postal code according to the conventions valid in the respective country"
+                  "valueString": "Postal code according to the conventions valid in the respective country",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -559,7 +797,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "For persons from city states including the city district"
+                  "valueString": "For persons from city states including the city district",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -589,7 +841,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Street name with house number or P.O. Box and other delivery details"
+                  "valueString": "Street name with house number or P.O. Box and other delivery details",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -619,7 +885,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Postal code according for a P.O box to the conventions valid in the respective country. For persons from city states including the city district."
+                  "valueString": "Postal code according for a P.O box to the conventions valid in the respective country. For persons from city states including the city district.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -649,7 +929,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Country code according to ISO 3166"
+                  "valueString": "Country code according to ISO 3166",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -679,7 +973,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Postal code according to the conventions valid in the respective country"
+                  "valueString": "Postal code according to the conventions valid in the respective country",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -709,7 +1017,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "For persons from city states including the city district"
+                  "valueString": "For persons from city states including the city district",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -739,7 +1061,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Street name with house number or P.O. Box and other delivery details"
+                  "valueString": "Street name with house number or P.O. Box and other delivery details",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -769,7 +1105,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Indicates whether a patient has died. If yes, also the time is recorded."
+                  "valueString": "Indicates whether a patient has died. If yes, also the time is recorded.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -799,7 +1149,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Indicates whether the patient is alive or deceased."
+                  "valueString": "Indicates whether the patient is alive or deceased.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -829,7 +1193,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Indicates the time of death of the patient, if the patient died in the hospital. Otherwise \"Null flavor\"."
+                  "valueString": "Indicates the time of death of the patient, if the patient died in the hospital. Otherwise \"Null flavor\".",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -859,7 +1237,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Source of vital status"
+                  "valueString": "Source of vital status",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -889,7 +1281,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Last known point in time at which a vital status was recorded"
+                  "valueString": "Last known point in time at which a vital status was recorded",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -919,7 +1325,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Reason for patient's death. Coded per ICD-10-WHO."
+                  "valueString": "Reason for patient's death. Coded per ICD-10-WHO.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -949,7 +1369,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Person receiving treatment in one or more health care facilities"
+                  "valueString": "Person receiving treatment in one or more health care facilities",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -992,7 +1426,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Health facility unique identification number for a patient."
+                  "valueString": "Health facility unique identification number for a patient.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1022,7 +1470,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The context of the patient identifier to describe the patient identifier, since the patient within a healthcare facility may be assigned a number per system (in the hospital: \"laboratory\", \"radiology\", \"internal medicine ward\", etc.)."
+                  "valueString": "The context of the patient identifier to describe the patient identifier, since the patient within a healthcare facility may be assigned a number per system (in the hospital: \"laboratory\", \"radiology\", \"internal medicine ward\", etc.).",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1052,7 +1514,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Patient's current valid insurance which is used to bill the medical healthcare services."
+                  "valueString": "Patient's current valid insurance which is used to bill the medical healthcare services.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1082,7 +1558,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The institutional identifiers (IK for short) are nationwide unique nine-digit numbers that can be used to process billing and quality assurance measures across institutions in the German social insurance sector."
+                  "valueString": "The institutional identifiers (IK for short) are nationwide unique nine-digit numbers that can be used to process billing and quality assurance measures across institutions in the German social insurance sector.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1113,7 +1603,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Insurance type of the patient"
+                  "valueString": "Insurance type of the patient",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1143,7 +1647,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Information for the identification of the insured person"
+                  "valueString": "Information for the identification of the insured person",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1173,7 +1691,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Unchangeable part of the health insurance number (insured ID) for SHI patients. This can be found, for example, on the health insurance compan's membership card."
+                  "valueString": "Unchangeable part of the health insurance number (insured ID) for SHI patients. This can be found, for example, on the health insurance compan's membership card.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1203,7 +1735,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Insurance number for private health insurance patients. The number is assigned by the respective private health insurance company."
+                  "valueString": "Insurance number for private health insurance patients. The number is assigned by the respective private health insurance company.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1233,7 +1779,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Person participating in a study (in some circumstances, while being a patient in a health care facility)"
+                  "valueString": "Person participating in a study (in some circumstances, while being a patient in a health care facility)",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1263,7 +1823,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Unique identifier of a patient in the context of a research project (clinical study, use case)"
+                  "valueString": "Unique identifier of a patient in the context of a research project (clinical study, use case)",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1293,7 +1867,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Legal basis (e.g. consent) on the basis of which the patient may be included in the study."
+                  "valueString": "Legal basis (e.g. consent) on the basis of which the patient may be included in the study.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1326,7 +1914,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Start of the person's participation in the study"
+                  "valueString": "Start of the person's participation in the study",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1356,7 +1958,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "End of the person's participation in the study"
+                  "valueString": "End of the person's participation in the study",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1386,7 +2002,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Status of a person's participation in the study, e.g., \"included\", \"revoked\", \"completed\", etc."
+                  "valueString": "Status of a person's participation in the study, e.g., \"included\", \"revoked\", \"completed\", etc.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1416,7 +2046,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Unique id of the study"
+                  "valueString": "Unique id of the study",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1446,7 +2090,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Pseudonymised representation of a corresponding Patient"
+                  "valueString": "Pseudonymised representation of a corresponding Patient",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -1476,7 +2134,21 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Newly generated identification of the patient with reference to the original identifier in a trust center."
+                  "valueString": "Newly generated identification of the patient with reference to the original identifier in a trust center.",
+                  "_valueString": {
+                    "extension": [
+                      {
+                        "extension": [
+                          {
+                            "valueCode": "SHALL:display"
+                          },
+                          {
+                            "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ActorDefinition/HealthResearchDataPortal"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
