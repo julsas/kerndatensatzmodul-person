@@ -8,9 +8,5 @@ InstanceOf: ActorDefinition
 * title = "Data Management Site (DMS)"
 * status = #active
 * date = "2025-04-22"
-* description = """In the context of the Medical Informatics Initiative (MII), the Data Management Site (DMS) 
-    offers the necessary interfaces for the integration of data from the data integration centers (DIC).
-    In a data usage project, the DMS is responsible for provision of data to authorized researchers and 
-    archiving of the data sets. 
-    """
+* description = "In the context of the Medical Informatics Initiative (MII), the Data Management Site (DMS) offers the necessary interfaces for the integration of data from the data integration centers (DIC). In a data usage project, the DMS is responsible for provision of data to authorized researchers and archiving of the data sets."
 * type = #system

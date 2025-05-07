@@ -8,7 +8,5 @@ InstanceOf: ActorDefinition
 * title = "Health Research Data Portal (FDPG)"
 * status = #active
 * date = "2025-04-22"
-* description = """In the context of the Medical Informatics Initiative (MII), the Health Research Data Portal (FDPG) 
-    is the central access point for researchers to find and access health-related data from participating university hospitals.
-    """
+* description = "In the context of the Medical Informatics Initiative (MII), the Health Research Data Portal (FDPG) is the central access point for researchers to find and access health-related data from participating university hospitals."
 * type = #system

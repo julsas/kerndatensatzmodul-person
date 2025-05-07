@@ -8,8 +8,5 @@ InstanceOf: ActorDefinition
 * title = "Federated Trusted Third Party (fTTP)"
 * status = #active
 * date = "2025-04-22"
-* description = """In the context of the Medical Informatics Initiative (MII), 
-    a Federated Trusted Third Party (fTTP) is an independent unit that coordinates and supports cross-site identity
-    management to enable federated data use.
-    """
+* description = "In the context of the Medical Informatics Initiative (MII), a Federated Trusted Third Party (fTTP) is an independent unit that coordinates and supports cross-site identity management to enable federated data use."
 * type = #system

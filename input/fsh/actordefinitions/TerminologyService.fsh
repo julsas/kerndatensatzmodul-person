@@ -8,8 +8,5 @@ InstanceOf: ActorDefinition
 * title = "Terminology Service"
 * status = #active
 * date = "2025-04-22"
-* description = """In the context of the Medical Informatics Initiative (MII), 
-    the Terminology Service is a unit that runs the central FHIR terminology server
-    and provides access to standardized terminologies.
-    """
+* description = "In the context of the Medical Informatics Initiative (MII), the Terminology Service is a unit that runs the central FHIR terminology server and provides access to standardized terminologies."
 * type = #system
